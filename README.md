@@ -11,7 +11,7 @@ This repository presents a scientometric and bibliometric analysis of the scient
 
 The bibliometric and scientometric analysis in this project is based on data collected from Web of Science, a comprehensive and trusted platform for academic and scholarly research. Web of Science provides access to a vast collection of research publications, including peer-reviewed journals, conference proceedings, and more. 
 
-The data retrieved from Web of Science serves as the foundation for our exploration of scientific trends in the field of online work, platform work, and freelancing. The use of Web of Science as a data source ensures the reliability and academic rigor of the information used in this scientometric exploration.
+The data retrieved from Web of Science serves as the foundation for our exploration. The use of Web of Science as a data source ensures the reliability and academic rigor of the information used in this scientometric exploration.
 
 ## Analyzed Data
 
