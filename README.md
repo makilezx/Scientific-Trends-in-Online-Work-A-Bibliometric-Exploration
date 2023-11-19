@@ -2,20 +2,16 @@
 
 
 
-## Overview
+## Introduction
 
 This repository presents a scientometric and bibliometric analysis of the scientific literature in the field of online work, platform work, and freelancing. It leverages data analytics tools to uncover trends, patterns, and insights in the ever-evolving landscape of digital labor.
 
 
-## Data Source: Web of Science (WOS)
+## Data 
 
 The bibliometric and scientometric analysis in this repo is based on data collected from the Web of Science, a comprehensive and trusted platform for academic and scholarly research. Web of Science provides access to a vast collection of research publications, including peer-reviewed journals, conference proceedings, and more. 
 
-The data retrieved from the Web of Science serves as the foundation for our exploration. The use of the Web of Science as a data source ensures the reliability and academic rigor of the information used in this scientometric exploration.
-
-## Analyzed Data
-
-The data analyzed in this project spans the years from 1999 to 2023, providing a comprehensive overview of scientific production in the field of online work, platform work, and freelancing over two decades. The analysis encompasses a total of 556 research papers.
+The use of the Web of Science as a data source ensures the reliability and academic rigor of the information used in this scientometric exploration. The data analyzed in this project spans the years from 1999 to 2023, providing a comprehensive overview of scientific production in the field of online work, platform work, and freelancing over two decades. The analysis encompasses a total of 556 research papers.
 
 ### Data Selection Criteria
 
@@ -23,11 +19,10 @@ The selection of relevant papers was based on the following query criteria:
 - Query Keywords: "online work" OR "platform work" OR "freelancing"
 - Search Fields: TITLE OR ABSTRACT OR AUTHOR KEYWORDS
 
-This query was designed to capture a broad spectrum of scholarly publications that are directly related to the subject matter. It ensures that the analysis encompasses research papers where the topics of online work, platform work, or freelancing are a significant focus, whether they appear in the paper's title, abstract, or author-provided keywords.
+This query was designed to capture a broad spectrum of scholarly publications that are directly related to the subject matter. It ensures that the dataset encompasses research papers where the topics of online work, platform work, or freelancing are a significant focus, whether they appear in the paper's title, abstract, or author-provided keywords.
 
-The selected dataset of 556 papers forms the basis of our scientometric and bibliometric exploration, offering valuable insights into the scientific trends in this evolving field.
 
-## Analysis Methods
+## Analysis 
 
 ### Preliminary Analysis
 
@@ -56,6 +51,19 @@ A significant exploration was carried out in R using the bibliometrix package, f
 - **Code in Repository:** The R code used for this analysis is available in the repository.
 
 ## Results
+
+### Annual Production Surge during the COVID Period (2020-2023)
+
+Experience a notable uptick in scholarly output in the field, particularly during the COVID period from 2020 to 2023. This surge in annual production coincides with a parallel increase in citation trends. The dynamic interplay between topics and citation patterns during this timeframe offers intriguing insights into the landscape of academic contributions.
+
+### Emergence of "Future of Work" Themes Post-COVID
+
+Witness a discernible shift in trend topics post-COVID, marked by the emergence of themes related to the "future of work." Additionally, subjects like "collective bargaining" gain prominence, reflecting a broader exploration of the pandemic's implications on the nature of work and employment dynamics.
+
+### Clear Structure Among Influential Authors
+
+Explore a well-defined structure among influential authors in the field. Utilizing metrics such as the Hirsch index, notable figures like Lehdonvirta and Graham from Oxford prominently stand out. The collaboration network and citation analysis elegantly reveal distinct clusters, providing insights into collaborative patterns within the scholarly community.
+
 
 
 
