@@ -14,9 +14,7 @@ As data from academic databases can be employed to unveil relationships within m
 
 The bibliometric and scientometric analyses in this repo are based on data collected from the Web of Science. Web of Science is a platform offering access to multiple databases that provide reference and citation data from academic journals, conference proceedings, and other documents in various academic disciplines. 
 
-The use of the Web of Science as a data source ensures the reliability and academic rigor of the information used in this bibliometric/scientometric exploration. The data analyzed in this project spans the years from 1999 to 2023, providing a comprehensive overview of scientific production in the field of online work, platform work, and freelancing over two decades. 
-
-The analysis encompasses a total of 556 research papers.
+The use of the Web of Science as a data source ensures the reliability and academic rigor of the information used in this bibliometric/scientometric exploration. The data analyzed in this project spans the years from 1999 to 2023, providing a comprehensive overview of scientific production in the field of online work, platform work, and freelancing over two decades. The analysis encompasses a total of 556 research papers.
 
 ### Data Selection Criteria
 
@@ -54,19 +52,22 @@ In-depth bibliometric analysis was conducted using R, employing the bibliometrix
 - The main analysis delved into bibliometric characteristics, exploring metadata regarding influential authors, trending topics, and author production over time.
 - Additionally, analyses also focused on abstracts, cited references, and author-based keywords. Consequently, insights were derived from maps of bibliographic coupling, co-citation of authors, and co-occurrences of keywords. These analyses and visualizations unveil current trends and research perspectives within the field.
 
-## Results
+## Results [preliminary]
 
-### Annual Production Surge during the COVID Period (2020-2023)
+##### The most prominent authors in the field were identified, and their impact, measured by the Hirsch index, was taken into consideration.
+![AuthorsProductionOverTime-2023-11-05](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/4cacedbe-f9a1-4833-9838-94726ed2bf37)
+![AuthorImpact-2023-11-05](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/89c8ae0a-276b-46e6-9635-891b1dc5d486)
 
-Experience a notable uptick in scholarly output in the field, particularly during the COVID period from 2020 to 2023. This surge in annual production coincides with a parallel increase in citation trends. The dynamic interplay between topics and citation patterns during this timeframe offers intriguing insights into the landscape of academic contributions.
+##### Annual production surge during the COVID/post-COVID period (2020-2023). There is a notable uptick in scholarly output in the field, particularly during the COVID period from 2020 to 2023. This surge in annual production coincides with the emergence of COVID-19-related terms. Also, the topic regarding "algorithmic management" emerges, reflecting thus trend within the field.
+![AnnualScientificProduction-2023-11-05](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/f38e742e-8daa-4397-80fd-d45b851bfb01)
+![AUTHOR KEYWORD TrendTopics-2023-11-05](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/27056ec0-1c6c-4be1-a457-eacba2b26b82)
+![thematic evolution od 2021](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/376a6ae8-ab1c-467e-891e-d08d23a9a553)
+
+The dynamic interplay between topics and citation patterns during this timeframe offers intriguing insights into the landscape of academic contributions.
 
 ### Emergence of "Future of Work" Themes Post-COVID
 
 Witness a discernible shift in trend topics post-COVID, marked by the emergence of themes related to the "future of work." Additionally, subjects like "collective bargaining" gain prominence, reflecting a broader exploration of the pandemic's implications on the nature of work and employment dynamics.
-
-### Clear Structure Among Influential Authors
-
-Explore a well-defined structure among influential authors in the field. Utilizing metrics such as the Hirsch index, notable figures like Lehdonvirta and Graham from Oxford prominently stand out. The collaboration network and citation analysis elegantly reveal distinct clusters, providing insights into collaborative patterns within the scholarly community.
 
 
 
