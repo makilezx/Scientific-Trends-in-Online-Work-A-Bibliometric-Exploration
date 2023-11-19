@@ -16,14 +16,6 @@ The bibliometric and scientometric analyses in this repo are based on data colle
 
 The use of the Web of Science as a data source ensures the reliability and academic rigor of the information used in this bibliometric/scientometric exploration. The data analyzed in this project spans the years from 1999 to 2023, providing a comprehensive overview of scientific production in the field of online work, platform work, and freelancing over two decades. The analysis encompasses a total of 556 research papers.
 
-### Data Selection Criteria
-
-The selection of relevant papers was based on the following query criteria:
-- Query Keywords: "online work" OR "platform work" OR "freelancing"
-- Search Fields: TITLE OR ABSTRACT OR AUTHOR KEYWORDS
-
-This query was designed to capture a broad spectrum of scholarly publications that are directly related to the subject matter. It ensures that the dataset encompasses research papers where the topics of online work, platform work, or freelancing are a significant focus, whether they appear in the paper's title, abstract, or author-provided keywords.
-
 ## Analysis 
 
 ### Preliminary Analysis
@@ -58,7 +50,7 @@ In-depth bibliometric analysis was conducted using R, employing the bibliometrix
 ![AuthorsProductionOverTime-2023-11-05](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/4cacedbe-f9a1-4833-9838-94726ed2bf37)
 ![AuthorImpact-2023-11-05](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/89c8ae0a-276b-46e6-9635-891b1dc5d486)
 
-##### The trend of annual production in this field has been identified. Interestingly, the growth coincides with the COVID-19 pandemic, aligning with the emergence of this descriptor in the themes of scientific papers. This may indicate that within this scientific field, there has been an exploration of the implications of the pandemic on online work, as reflected in the evolution of topics.
+##### The trend of annual production in this field has been identified. Interestingly, the growth coincides with the COVID-19 pandemic, aligning with the emergence of this descriptor in scientific papers. This may indicate that within this scientific field, there has been an exploration of the implications of the pandemic on online work, as reflected in the evolution of topics.
 ![AnnualScientificProduction-2023-11-05](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/f38e742e-8daa-4397-80fd-d45b851bfb01)
 ![thematic evolution od 2021](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/376a6ae8-ab1c-467e-891e-d08d23a9a553)
 
