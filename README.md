@@ -23,6 +23,9 @@ The selection of relevant papers was based on the following query criteria:
 
 This query was designed to capture a broad spectrum of scholarly publications that are directly related to the subject matter. It ensures that the dataset encompasses research papers where the topics of online work, platform work, or freelancing are a significant focus, whether they appear in the paper's title, abstract, or author-provided keywords.
 
+## Aim
+
+As data from academic databases can be employed to unveil relationships within metadata (including authors, abstracts, citations, etc.), the analyses shown here seek to answer questions about top authors' co-authorship, the structure of the co-authorship network, and the dominant topics emerging from academic papers.
 
 ## Analysis 
 
@@ -30,20 +33,20 @@ This query was designed to capture a broad spectrum of scholarly publications th
 
 In the preliminary analysis, Python was used with the metaknowledge library, alongside pandas, numpy, matplotlib, and other libraries. 
 
-The following key analyses were conducted:
+The following key steps were conducted:
 
-- **Preprocessing of Web of Science Records:** Cleaned and prepared the data for further analysis.
-- **Network Analysis with NetworkX:** Generated a co-author network, identified the top 10 co-authors using degree centrality scores and visualized the network using seaborn.
-- **Community Detection:** Detected and visualized communities within the co-author network.
+- Preprocessing Web of Science records involved cleaning and preparing the data for subsequent analysis.
+- Conducted network analysis using NetworkX, which included generating a co-author network, identifying the top 10 co-authors based on degree centrality scores, and visualizing the network using seaborn.
+- Implemented community detection to (preliminary) identify and visualize communities within the co-author network.
 
 ### Topic Modeling with LDA
 
-The supplementary analysis involved topic modelling using Latent Dirichlet Allocation (LDA). The following steps were taken using libraries such as nltk, gensim, and pyLDAvis:
+The supplementary analysis involved topic modelling using Latent Dirichlet Allocation (LDA). The following steps were taken using Python libraries such as nltk, gensim, and pyLDAvis:
 
-- **Preprocessing and Lemmatizing:** Prepared the text data for analysis by removing stopwords, lemmatizing, and addressing word frequency.
-- **LDA Modeling:** Conducted LDA to identify two main topics within the dataset.
-- **Interactive Dashboard:** Developed an interactive dashboard to explore the results.
-- **Main Words within Topics:** Plotted and analyzed the main words associated with each identified topic.
+- Prepared the text data for analysis by removing stopwords, lemmatizing, addressing word frequency etc.
+- Conducted LDA modelling on abstract text with the aim to identify main topics within the dataset, providing insights into emerging research streams.
+- An interactive dashboard was crafted for  the exploration of the results, allowing users to gain a better understanding of the  inter-topic distances and topic-word distributions. Along with this, 
+plots of words associated with each identified topic are generated, offering a nuanced view of the themes that surfaced.
 
 ### R Analysis
 
