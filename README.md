@@ -6,6 +6,9 @@
 
 This repository presents a scientometric and bibliometric analysis of the scientific literature in the field of online work, platform work, and freelancing. It leverages data analytics tools to uncover trends, patterns, and insights in the ever-evolving landscape of digital labor.
 
+## Aim
+
+As data from academic databases can be employed to unveil relationships within metadata (including authors, abstracts, citations, etc.), the analyses shown here seek to answer questions about top authors' co-authorship, the structure of the co-authorship network, and the dominant topics emerging from academic papers.
 
 ## Data 
 
@@ -22,10 +25,6 @@ The selection of relevant papers was based on the following query criteria:
 - Search Fields: TITLE OR ABSTRACT OR AUTHOR KEYWORDS
 
 This query was designed to capture a broad spectrum of scholarly publications that are directly related to the subject matter. It ensures that the dataset encompasses research papers where the topics of online work, platform work, or freelancing are a significant focus, whether they appear in the paper's title, abstract, or author-provided keywords.
-
-## Aim
-
-As data from academic databases can be employed to unveil relationships within metadata (including authors, abstracts, citations, etc.), the analyses shown here seek to answer questions about top authors' co-authorship, the structure of the co-authorship network, and the dominant topics emerging from academic papers.
 
 ## Analysis 
 
@@ -47,12 +46,13 @@ The supplementary analysis involved topic modelling using Latent Dirichlet Alloc
 - Conducted LDA modelling on abstract text with the aim of identifying main topics within the dataset, providing insights into emerging research streams.
 - An interactive dashboard was crafted for  the exploration of the results, allowing a better understanding of the inter-topic distances and topic-word distributions. Along with this, 
 plots of words associated with each identified topic are generated.
-### R Analysis
 
-A significant exploration was carried out in R using the bibliometrix package, focusing on:
+### Bibliometric Analysis
 
-- **Bibliometric Characteristics:** Examined influential authors, trending topics, and author production over time.
-- **Code in Repository:** The R code used for this analysis is available in the repository.
+In-depth bibliometric analysis was conducted using R, employing the bibliometrix package along with biblioshiny. 
+
+- The main analysis delved into bibliometric characteristics, exploring metadata regarding influential authors, trending topics, and author production over time.
+- Additionally, analyses also focused on abstracts, cited references, and author-based keywords. Consequently, insights were derived from maps of bibliographic coupling, co-citation of authors, and co-occurrences of keywords. These analyses and visualizations unveil current trends and research perspectives within the field.
 
 ## Results
 
