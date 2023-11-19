@@ -9,9 +9,11 @@ This repository presents a scientometric and bibliometric analysis of the scient
 
 ## Data 
 
-The bibliometric and scientometric analysis in this repo is based on data collected from the Web of Science, a comprehensive and trusted platform for academic and scholarly research. Web of Science provides access to a vast collection of research publications, including peer-reviewed journals, conference proceedings, and more. 
+The bibliometric and scientometric analyses in this repo are based on data collected from the Web of Science. Web of Science is a platform offering access to multiple databases that provide reference and citation data from academic journals, conference proceedings, and other documents in various academic disciplines. 
 
-The use of the Web of Science as a data source ensures the reliability and academic rigor of the information used in this scientometric exploration. The data analyzed in this project spans the years from 1999 to 2023, providing a comprehensive overview of scientific production in the field of online work, platform work, and freelancing over two decades. The analysis encompasses a total of 556 research papers.
+The use of the Web of Science as a data source ensures the reliability and academic rigor of the information used in this bibliometric/scientometric exploration. The data analyzed in this project spans the years from 1999 to 2023, providing a comprehensive overview of scientific production in the field of online work, platform work, and freelancing over two decades. 
+
+The analysis encompasses a total of 556 research papers.
 
 ### Data Selection Criteria
 
