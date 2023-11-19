@@ -58,16 +58,13 @@ In-depth bibliometric analysis was conducted using R, employing the bibliometrix
 ![AuthorsProductionOverTime-2023-11-05](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/4cacedbe-f9a1-4833-9838-94726ed2bf37)
 ![AuthorImpact-2023-11-05](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/89c8ae0a-276b-46e6-9635-891b1dc5d486)
 
-##### Annual production surge during the COVID/post-COVID period (2020-2023). There is a notable uptick in scholarly output in the field, particularly during the COVID period from 2020 to 2023. This surge in annual production coincides with the emergence of COVID-19-related terms. Also, the topic regarding "algorithmic management" emerges, reflecting thus trend within the field.
+##### The trend of annual production in this field has been identified. Interestingly, the growth coincides with the COVID-19 pandemic, aligning with the emergence of this descriptor in the themes of scientific papers. This may indicate that within this scientific field, there has been an exploration of the implications of the pandemic on online work, as reflected in the evolution of topics.
 ![AnnualScientificProduction-2023-11-05](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/f38e742e-8daa-4397-80fd-d45b851bfb01)
-![AUTHOR KEYWORD TrendTopics-2023-11-05](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/27056ec0-1c6c-4be1-a457-eacba2b26b82)
 ![thematic evolution od 2021](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/376a6ae8-ab1c-467e-891e-d08d23a9a553)
 
-The dynamic interplay between topics and citation patterns during this timeframe offers intriguing insights into the landscape of academic contributions.
+##### Additionally, current descriptors reflecting trends in research within this scientific area have been identified.
+![AUTHOR KEYWORD TrendTopics-2023-11-05](https://github.com/makilezx/Scientific-Trends-in-Online-Work-A-Bibliometric-Exploration/assets/50851469/27056ec0-1c6c-4be1-a457-eacba2b26b82)
 
-### Emergence of "Future of Work" Themes Post-COVID
-
-Witness a discernible shift in trend topics post-COVID, marked by the emergence of themes related to the "future of work." Additionally, subjects like "collective bargaining" gain prominence, reflecting a broader exploration of the pandemic's implications on the nature of work and employment dynamics.
 
 
 
