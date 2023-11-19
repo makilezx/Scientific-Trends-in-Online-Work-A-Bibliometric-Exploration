@@ -44,10 +44,9 @@ The following key steps were conducted:
 The supplementary analysis involved topic modelling using Latent Dirichlet Allocation (LDA). The following steps were taken using Python libraries such as nltk, gensim, and pyLDAvis:
 
 - Prepared the text data for analysis by removing stopwords, lemmatizing, addressing word frequency etc.
-- Conducted LDA modelling on abstract text with the aim to identify main topics within the dataset, providing insights into emerging research streams.
-- An interactive dashboard was crafted for  the exploration of the results, allowing users to gain a better understanding of the  inter-topic distances and topic-word distributions. Along with this, 
-plots of words associated with each identified topic are generated, offering a nuanced view of the themes that surfaced.
-
+- Conducted LDA modelling on abstract text with the aim of identifying main topics within the dataset, providing insights into emerging research streams.
+- An interactive dashboard was crafted for  the exploration of the results, allowing a better understanding of the inter-topic distances and topic-word distributions. Along with this, 
+plots of words associated with each identified topic are generated.
 ### R Analysis
 
 A significant exploration was carried out in R using the bibliometrix package, focusing on:
